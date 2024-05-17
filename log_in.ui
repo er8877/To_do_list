@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#00A6FB</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_passord">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>227</y>
+      <width>371</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:#051923;
+color:rgb(155, 222, 255);
+border:2px solid rgb(155, 222, 255);
+border-radius:12px;
+padding-left:10px
+}
+
+QLineEdit:hover{
+background-color:rgb(155, 222, 255);
+color:#051923;
+border:2px solid #051923
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Password....</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>220</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color:#051923;
+color:rgb(155, 222, 255);
+border:2px solid rgb(155, 222, 255);
+border-radius:20px
+}</string>
+    </property>
+    <property name="text">
+     <string>Password : </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>40</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color:#051923;
+color:rgb(155, 222, 255);
+border:2px solid rgb(155, 222, 255);
+border-radius:20px;
+padding-bottom:4px
+}</string>
+    </property>
+    <property name="text">
+     <string>Log In</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_register_db">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>370</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe Print</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:#051923;
+color:rgb(155, 222, 255);
+border:2px solid rgb(155, 222, 255);
+border-radius:50%;
+}
+QPushButton::hover{
+background-color:rgb(155, 222, 255);
+color:#051923;
+border:2px solid #051923
+}</string>
+    </property>
+    <property name="text">
+     <string>Accept</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
